@@ -3,7 +3,9 @@
     "allow": [
       "Bash(\"/c/Program Files/GitHub CLI/gh.exe\" --version)",
       "Bash(\"/c/Program Files/GitHub CLI/gh.exe\" auth status)",
-      "Bash(\"/c/Program Files/GitHub CLI/gh.exe\" auth login)"
+      "Bash(\"/c/Program Files/GitHub CLI/gh.exe\" auth login)",
+      "Bash(\"/c/Program Files/GitHub CLI/gh.exe\" run list --repo ghiro5555/todo-app)",
+      "Bash(\"/c/Program Files/GitHub CLI/gh.exe\" run view 20464196765 --repo ghiro5555/todo-app --log)"
     ]
   }
 }
